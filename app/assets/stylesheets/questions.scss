@@ -1,0 +1,79 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+
+ body {
+   background: $gray;
+ }
+
+  .banner {
+   background: red;
+   h1 {
+
+     font-size: 50px;
+
+   }
+ }
+
+.formu{
+  width: 600px;
+  height: 50px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ }
+
+ .contain{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   margin-top: 300px;
+   padding-bottom: 50px;
+ }
+
+ .button{
+   height: 56px;
+   width: 60px;
+   background-color:#337ab7;
+   color: white;
+   border-radius: 6px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ }
+
+
+ .containYou{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   margin-bottom: 40px;
+   border-left: 6px solid grey;
+ }
+
+ .containHim{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   background-color: #ffffe1;
+   border-left: 6px solid grey;
+   margin-bottom: 40px;
+ }
+
+ .yeah{
+   font-size: 25px;
+   margin-left: 10px;
+ }
+
+ .lien{
+   text-decoration: none;
+   font-size: 25px;
+   color: #337ab7;
+   margin-top: 40px;
+
+   &:hover{
+     color: #153a5a;
+   }
+ }
